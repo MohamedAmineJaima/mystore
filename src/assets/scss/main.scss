@@ -1,0 +1,40 @@
+/*!
+ * Theme created by Amine Jaima
+ */
+
+//Bootstrap
+@import './bootstrap-custom.scss';
+
+// Variables
+@import './variables.scss';
+
+// Functions
+@import './functions.scss';
+
+// Mixins
+@import './mixins.scss';
+
+// Helpers
+@import './helpers.scss';
+
+// Layout
+@import './layout.scss';
+
+// Custom fonts
+@import './typography.scss';
+
+// Buttons
+@import './buttons.scss';
+
+//Inputs
+
+@import '../../components/input/input.scss';
+
+// Components
+
+@import '../../components/top-header/top-header.scss';
+@import '../../components/header/header.scss';
+@import '../../components/home-slider/home-slider.scss';
+
+
+

@@ -1,0 +1,9 @@
+# OS generated
+.DS_Store
+Thumbs.db
+distribution/
+node_modules/
+npm-debug.log
+.idea/
+.sass-cache
+package-lock.json

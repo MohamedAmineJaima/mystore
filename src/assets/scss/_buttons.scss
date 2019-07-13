@@ -1,0 +1,28 @@
+.btn {
+	
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+
+	&--connaitre {
+		background: white;
+		font-family: poppins-light;
+		font-size: 11px;
+		color: #000;
+		border: 1px solid $grey-1;
+		border-radius: 20px;
+		padding: 6px 20px;
+	}
+
+	&--contact {
+		background: #F2F2F2;
+		font-family: poppins-light;
+		font-size: 11px;
+		color: #000;
+		border: 1px solid $grey-1;
+		border-radius: 20px;
+		padding: 6px 20px;
+	}
+
+}

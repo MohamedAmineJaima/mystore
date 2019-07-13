@@ -1,0 +1,15 @@
+.input {
+	&--search {
+		background: #F6F6F6;
+		padding: 15px 0 15px 22px;
+		border: none;
+    	border-radius: 5px;
+    			
+		&::placeholder {
+			font-family: poppins;
+			font-size: 12px;
+			letter-spacing: 1px;
+			color: #707070;
+		}
+	}
+}

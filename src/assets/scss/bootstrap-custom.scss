@@ -1,0 +1,43 @@
+// Custom Bootstrap
+
+// Custom Spacers
+$spacer: 10px !default;
+$spacers: () !default;
+$spacers: map-merge((
+  s: 8px,
+  m: ($spacer * 1.5),
+  1: ($spacer * 1),
+  2: ($spacer * 2),
+  3: ($spacer * 3),
+  4: ($spacer * 4),
+  5: ($spacer * 5),
+  6: ($spacer * 6),
+  7: ($spacer * 7)
+), $spacers);
+
+// Custom Grid Breakpoints
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+// Custom max containers
+
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";

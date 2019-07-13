@@ -1,0 +1,77 @@
+.header {
+	padding: 25px 0;
+
+	&_logo {
+
+	}
+
+	&_search {
+		width: 32%;
+		position: relative;
+
+		&:before {
+    		position: absolute;
+    		content: '';
+    		background: url('../img/search.svg') no-repeat;
+    		background-size: 15px;
+		    width: 15px;
+		    height: 15px;
+    		right: 15px;
+    		top: 50%;
+    		transform: translateY(-50%);
+    	}
+		
+	}
+
+	&_right {
+		ul {
+			
+			font-family: poppins;
+			font-size: 11px;
+
+			li {
+				cursor: pointer;
+				margin-right: 50px;
+
+				&:hover {
+					opacity: .7;
+				}
+
+				svg {
+					width: 25px;
+					height: 25px;
+
+					&.icon-avatar {
+						width: 21px;
+						height: 25px;
+					}
+				}
+
+				&:last-child {
+					margin-right: 0;
+
+					span:first-child {
+						margin-right: 7px;
+					}
+				}
+			}
+		}
+
+		.icon-shopping-cart {
+			position: relative;
+			.number {
+				position: absolute;
+			    content: "";
+			    width: 15px;
+			    height: 15px;
+			    background: red;
+			    right: -6px;
+			    border-radius: 50px;
+			    top: -10px;
+			    color: white;
+			    font-size: 10px;
+			    text-align: center;
+			}
+		}
+	}
+}
