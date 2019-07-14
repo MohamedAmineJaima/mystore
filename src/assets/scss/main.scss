@@ -30,11 +30,16 @@
 
 @import '../../components/input/input.scss';
 
+//Headings
+
+@import './headings.scss';
+
 // Components
 
 @import '../../components/top-header/top-header.scss';
 @import '../../components/header/header.scss';
 @import '../../components/home-slider/home-slider.scss';
+@import '../../components/category-card/category-card.scss';
 
 
 

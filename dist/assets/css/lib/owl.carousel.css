@@ -215,3 +215,7 @@
   position: relative;
   z-index: 1;
 }
+
+.owl-nav.disabled {
+  display: none;
+}

@@ -2,13 +2,129 @@
 	&_categories {
 		ul {
 			padding: 0 15px;
+			box-shadow: 0px 0px 2px 0px #ccc;
 
 			li {
+				letter-spacing: 1px;
+				cursor: pointer;
+				position: relative;
 				padding: 14px 0;
-				margin-bottom: 1px solid #F1F1F1;
+				border-bottom: 1px solid #F1F1F1;
 				font-family: poppins-medium;
 				font-size: 10px;
+				display: flex;
+				align-items: center;
+
+				&:hover {
+					opacity: .5;
+				}
+
+				svg.icon {
+					width: 20px;
+					height: 20px;
+					margin-right: 8px;
+				}
+
+				&:before {
+					position: absolute;
+					content: '';
+					right: 24px;
+					top: 50%;
+					transform: translateY(-50%);
+					background: url('../img/arrow-right.svg') no-repeat;
+					background-size: 4px;
+				    width: 10px;
+				    height: 10px;
+				}
+			}
+		}
+	}
+
+	.banner-carousel {
+		height: 100%;
+		
+		.owl-stage, .owl-stage-outer, .owl-item, .item {
+			height: 100%;
+		}
+
+		.owl-stage {
+			display: flex;
+		}
+
+		.item {
+			display: flex;
+		    justify-content: center;
+		    align-items: center;
+		}
+
+		.owl-item img {
+			width: auto;
+		    height: auto;
+		    max-width: 100%;
+		    max-height: 100%;
+		}
+
+		.owl-dots {
+			position: absolute;
+		    bottom: 20px;
+		    left: 50%;
+		    transform: translateX(-50%);
+		}
+
+		.owl-dot {
+			cursor: pointer;
+			width: 12px;
+		    height: 12px;
+		    border: 1px solid #707070;
+		    border-radius: 100%;
+		    margin-right: 6px;
+		    transition: .3s;
+		    float: left;
+
+		    &:last-child {
+		    	margin-right: 0;
+		    }
+
+		    &:hover, &.active {
+		    	background: #000;
+		    }
+		}
+	}
+
+	&_card {
+		background: #000;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 33%;
+		border-bottom: 1px solid #fff;
+		cursor: pointer;
+		transition: .4s;
+
+		&:hover {
+			opacity: .8;
+		}
+
+		.icon {
+			margin-bottom: 10px;
+			svg {
+				width: 20px;
+				height: 20px;
+			}
+		}
+
+		.desc {
+			color: white;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: center;
+			letter-spacing: 1px;
+
+			small {
+				font-size: 8px;
 			}
 		}
 	}
 }
+
