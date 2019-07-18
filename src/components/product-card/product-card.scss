@@ -1,7 +1,25 @@
 .product-card {
-	padding: 21px 0 16px 26px;
+	padding: 21px 15px 16px 15px;
+	background: #F1F1F1;
+	cursor: pointer;
+	transition: .2s;
+	border-right: 1px solid white;
+	margin-bottom: 15px;
+
+	&:nth-child(4) {
+		border-right: none;
+	}
+
+	&:hover {
+		background: white;
+
+		img {
+			opacity: .6;
+		}
+	}
 
 	&_img {
+		margin: 0 auto;
 		margin-bottom: 18px;
 		display: flex;
 		justify-content: center;
@@ -17,10 +35,33 @@
 	}
 
 	&_category {
-
+		margin-bottom: 18px;
+		font-family: poppins-medium;
+		font-size: 13px;
 	}
 
-	&_desc {
-		
+	&_title {
+		margin-bottom: 36px;
+		font-size: 12px;
+	}
+
+	&_price {
+		font-weight: bold;
+		margin-right: 25px;
+	}
+
+	&_line-through-price {
+		font-family: poppins-medium;
+		font-size: 13px;
+		color: #999999;
+		text-decoration: line-through;
+		margin-right: 25px;
+	}
+
+	&_discount {
+		color: #EF2E2E;
+		font-size: 13px;
+		font-weight: bold;
+		color: #EF2E2E;
 	}
 }
