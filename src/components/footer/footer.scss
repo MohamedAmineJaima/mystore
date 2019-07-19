@@ -1,0 +1,59 @@
+.footer {
+	background: #EFEFEF;
+	&-row {
+		width: 80%;
+		margin: auto;
+		padding: 80px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-copyright {
+		margin-top: 30px;
+		font-size: 14px;
+		font-family: poppins-light;
+	}
+
+	&_title {
+		font-family: poppins-medium;
+		font-size: 21px;
+		text-decoration: underline;
+		margin-bottom: 40px;
+		text-transform: uppercase;
+	}
+
+	&_links {
+		li {
+			font-size: 14px;
+			font-family: poppins-light;
+			margin-bottom: 15px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			a {
+				color: #000;
+			}
+
+			span:first-child {
+				margin-right: 14px;
+			}
+
+			svg {
+				width: 16px;
+				height: 16px;
+			}
+		}
+	}
+
+	&_logo {
+		margin-bottom: 40px;
+
+		img {
+			max-width: 160px;
+			height: auto;
+		}
+	}
+	
+}

@@ -1,0 +1,21 @@
+.form {
+	&--newsletter {
+		padding: 10px 44px 10px 13px;
+		font-family: poppins-light;
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+
+	&--subscribe {
+		padding: 8px 20px;
+		text-transform: uppercase;
+		color: #fff;
+		background: #000;
+		cursor: pointer;
+		transition: .3s;
+
+		&:hover {
+			background: lighten(#000, 20%);
+		}
+	}
+}
