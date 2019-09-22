@@ -1,4 +1,7 @@
 export default function () {
+
+  (function($) {
+
 	$('.banner-carousel.owl-carousel').owlCarousel({
 		autoplay: true,
 	    loop: true,
@@ -71,5 +74,7 @@ export default function () {
     }
 
     placeholderFunc();
+
+    })(jQuery);
 
 }

@@ -3,7 +3,7 @@
 
 	&_logo {
 		img {
-			max-width: 160px;
+			max-width: 220px;
 			width: 100%;
 			height: auto;
 		}
@@ -23,6 +23,11 @@
     		right: 15px;
     		top: 50%;
     		transform: translateY(-50%);
+    	}
+
+    	@include media-breakpoint-down(md) {
+    		width: 80%;
+    		margin: auto;
     	}
 		
 	}
@@ -58,6 +63,11 @@
 						margin-right: 7px;
 					}
 				}
+			}
+
+			a {
+				text-decoration: none;
+    			color: inherit;
 			}
 		}
 

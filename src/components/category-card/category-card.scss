@@ -1,5 +1,5 @@
 .category-card {
-	
+	display: block;
 	border: 1px solid #E8E8E8;
 	cursor: pointer;
 
@@ -8,6 +8,7 @@
 	}
 
 	&_img {
+		padding: 10px 0;
 		height: 100px;
 		display: flex;
 		justify-content: center;
@@ -29,4 +30,8 @@
 		text-align: center;
 		margin-bottom: 14px;
 	}
+}
+
+.categories-row .col-2:nth-child(n+7) .category-card {
+    border-top: none;
 }

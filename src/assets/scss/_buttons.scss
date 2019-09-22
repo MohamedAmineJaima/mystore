@@ -25,4 +25,25 @@
 		padding: 6px 20px;
 	}
 
+	&--addtocart {
+		-webkit-appearance: none;
+		border: none;
+		border-radius: 5px;
+		background: #f29d06 url('../img/addtocart.svg') no-repeat;
+	    background-size: 19px;
+    	background-position: 11px 8px;
+		color: white;
+		font-size: 17px;
+		padding: 6px 33px 6px 49px;
+		border: 1px solid transparent;
+
+		&:hover {
+			color: #f29d06;
+			background: white url('../img/addtocart-outline.svg') no-repeat;
+			border: 1px solid #f29d06;
+			background-size: 19px;
+    		background-position: 11px 8px;
+		}
+	}
+
 }
